@@ -1,0 +1,15 @@
+{
+  "name": "AUTOMAÇÃO-UI-WEB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "script": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.8.0"
+  }
+}
