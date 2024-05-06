@@ -16,6 +16,10 @@ context('4.5.1	Automação de UI', () => {
 
     it('Quero fazer pedido', () => {
         cy.get('.post-3111 > .product-block').should('contain', 'Aero Daily Fitness Tee')
-        cy.selecProduto('S', 'Black', 2)
-    })
+        cy.selecProduto('S', 'Black')  
+        cy.get('.post-2559 > .product-block').should('contain', 'Abominable Hoodie')
+        cy.selecProduto1('S', 'Blue')
+        cy.get('.post-3073 > .product-block').should('contain', 'Aether Gym Pant')
+        cy.selecProdut('33', 'Blue')
+    });
   })
