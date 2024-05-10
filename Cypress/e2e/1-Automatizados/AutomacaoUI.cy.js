@@ -23,3 +23,4 @@ context('4.5.1	Automação de UI', () => {
         cy.selecProdut('33', 'Blue')
     });
   })
+  //

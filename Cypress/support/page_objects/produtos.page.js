@@ -31,3 +31,4 @@ class produtosPage {
 }
 
 export default new produtosPage()
+//

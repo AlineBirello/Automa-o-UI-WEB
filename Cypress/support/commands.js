@@ -29,3 +29,4 @@ Cypress.Commands.add('selecProduto1', (tamanho, cor) => {
         cy.get('.single_add_to_cart_button').click()  
         cy.get('.woocommerce-message > .button')  .click()    
     })
+    //
