@@ -1,0 +1,18 @@
+pipeline {
+
+  agent any
+
+    stages {
+        stage('Setup') {
+            steps {
+                git branch: 'main', url: 'https://github.com/AlineBirello/Automacao-UI-WEB.git'
+                bat 'npm install'
+            }
+        }
+        stage('Test') {
+            steps {
+                bat 'npm install'
+            }
+        }
+    }
+}
